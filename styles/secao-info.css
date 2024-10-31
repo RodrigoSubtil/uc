@@ -1,0 +1,91 @@
+.secao-info {
+    padding-bottom: 5rem;
+    padding-top: 1.8rem;
+}
+
+.secao-info-lista {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 0.7rem;
+}
+
+.secao-info-lista-itens a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.secao-info-lista-itens a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px; 
+}
+
+.secao-info-carrossel {
+    position: relative; 
+}
+
+.secao-info-carrossel-img {
+    width: 100%;
+    border-radius: 1rem;
+    height: 20rem;
+}
+
+.secao-info-carrossel-botoes {
+    position: absolute;
+    bottom: -1rem; /* Diminua o valor para descer os botões */
+    left: 50%; /* Centraliza os botões horizontalmente */
+    transform: translateX(-50%); /* Corrige o alinhamento dos botões */
+    display: flex;
+    flex-direction: row; /* Organiza os botões em linha */
+    gap: 0.5rem; /* Espaçamento entre os botões */
+}
+
+.secao-info-carrossel-botao {
+    background-color: rgb(0, 180, 165);     
+    border-radius: 9px; /* Bordas arredondadas */
+    text-align: center;
+    text-decoration: none; 
+    text-transform: uppercase;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0.7rem 1.8rem;
+    white-space: nowrap; /* Evita que o texto quebre linha */
+}
+
+
+@media screen and (max-width: 1023px) {
+
+    .secao-info {
+        padding: 0;
+    }
+
+    .secao-info-lista {
+        display: none;
+    }
+
+    .secao-info-carrossel-img {
+        width: 100vh;
+        border-radius: 0;
+        left: 0;
+        right: 0;
+        padding-top: 0.6rem;
+        height: 13rem;
+    }
+    
+    .secao-info-carrossel-botoes {
+        bottom: -2rem; /* Define a distância de 1rem da imagem */
+    }
+    
+    .secao-info-carrossel-botao {
+        color: black;
+        font-size: 10px;
+        font-weight: 700;
+        padding: 0.4rem 0.4rem 0.3rem 0.4rem;
+        white-space: nowrap; /* Evita que o texto quebre linha */
+    }
+}

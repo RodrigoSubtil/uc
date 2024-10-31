@@ -1,0 +1,78 @@
+.secao-numeros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 3rem;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    flex-grow: 1;
+    gap: 2rem;
+}
+
+.imagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Garante que a imagem seja alinhada na parte inferior */
+    height: 150px; /* Defina a altura desejada para o espaço da imagem */
+    margin-bottom: 1rem;
+}
+
+.imagem {
+    max-width: 50px;
+    height: auto;
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-lista {
+    margin-bottom: 0.5rem; /* Ajuste o espaçamento entre os itens da lista */
+}
+
+.secao-numeros-numero {
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(41, 41, 58);
+    padding-bottom: 0.5rem;
+}
+
+.secao-numeros-nome {
+    font-size: 13px;
+    color: rgb(41, 41, 58);
+    opacity: 90%;
+}
+
+.secao-numeros-linhas {
+    opacity: 25%;
+}
+
+.secao-numeros-titulo {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(41, 41, 58);
+    padding-bottom: 2rem;
+}
+
+.secao-numeros-mais-dados {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 3rem;
+}

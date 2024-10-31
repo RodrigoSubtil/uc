@@ -1,0 +1,62 @@
+.secao-noticias {
+    padding-bottom: 3rem;
+}
+
+.secao-noticias-conteudos {
+    display: flex;
+    width: 100%;
+    gap: 0.8rem;
+}
+
+.secao-noticias-titulo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(41, 41, 58);
+    padding-bottom: 1.2rem;
+}
+
+.secao-noticias-titulo a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+
+.secao-noticias-titulo a::after {
+    content: '';
+    display: inline-block;
+    width: 0.7rem;
+    background-image: url('/img/maior-que.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 8px; 
+}
+
+.secao-noticias-imagens {
+    width: 100%;
+    height: 10rem;
+    border-radius: 0.5rem;
+}
+
+.secao-noticias-conteudos-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    text-decoration: none;
+}
+
+.secao-noticias-conteudos-conteudo span {
+    font-size: 11px;
+    color: rgb(119, 119, 119);
+}
+
+.secao-noticias-conteudos-conteudo p {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2rem;
+}

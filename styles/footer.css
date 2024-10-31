@@ -1,0 +1,47 @@
+footer {
+    padding-top: 3rem;
+}
+
+.footer-banner {
+    width: 100%; /* Ocupe 100% da largura do viewport */
+}
+
+.footer-redes-socias {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.footer-redes-socias a img {
+    max-width: 1rem;
+}
+
+.footer-opcoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-lista {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-opcoes div span {
+    color: black;
+    font-size: 11px;
+    opacity: 55%;
+}
+
+.footer-lista li a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    opacity: 80%;
+}
+
+.footer-linha {
+    color: black;
+    opacity: 30%;
+}
+

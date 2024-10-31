@@ -1,0 +1,85 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Altera de center para space-between */
+    width: 100%;
+}
+
+.header-linguas {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header-opcoes {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+.header-opcoes li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.header-logo {
+    width: 7rem;
+}
+
+
+.header-ano {
+    width: 5rem;
+}
+
+.header-lupa {
+    width: 1rem;
+}
+
+.idiomas {
+    font-size: 13px;
+    padding-right: 0.3rem;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+}
+
+/* Torna a opção clicada em negrito e sublinhado */
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    font-weight: 800;
+    text-decoration: underline;
+    text-underline-offset: 8px; /* Ajusta a distância do sublinhado */
+}
+
+/* Oculta os inputs */
+input[type="radio"] {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .header-logo {
+        width: 5rem;
+    }
+
+    .header-container {
+        justify-content: center;
+    }
+
+    header form {
+        display: none;
+    }
+
+    .header-ano {
+        display: none;
+    }
+
+    .header-opcoes {
+        display: none;
+    }
+}

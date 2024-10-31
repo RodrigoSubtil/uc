@@ -1,0 +1,52 @@
+.secao-cursos {
+    padding-bottom: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.secao-cursos-linha {
+    color: black;
+    opacity: 40%;
+}
+
+.secao-cursos-dois {
+    padding-top: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.secao-cursos-coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 16rem;
+}
+
+.secao-cursos-coluna-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.secao-cursos-abreviacoes,
+.secao-cursos-nome-completo {
+    color: black;
+    text-decoration: none;
+}
+
+.secao-cursos-abreviacoes {
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(41, 41, 58);
+    padding-bottom: 0.5rem;
+}
+
+.secao-cursos-nome-completo {
+    font-size: 13px;
+    color: rgb(41, 41, 58);
+    opacity: 90%;
+}
